@@ -1,0 +1,19 @@
+{
+  "name": "chinadiscordbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ben MacLaurin",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.4.2",
+    "hanzi": "^2.1.0",
+    "hanzi-writer": "^1.3.0",
+    "request": "^2.88.0",
+    "snoowrap": "^1.15.2",
+    "utf8": "^3.0.0"
+  }
+}

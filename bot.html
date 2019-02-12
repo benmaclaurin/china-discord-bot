@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://cdn.jsdelivr.net/npm/hanzi-writer@1.3/dist/hanzi-writer.min.js"></script>
+  </head>
+
+  <body>
+    <div id="character-target-div"></div>
+  </body>
+
+  <script>
+    var writer = HanziWriter.create('character-target-div', '我', {
+      width: 100,
+      height: 100,
+      padding: 5,
+      delayBetweenLoops: 3000,
+      delayBetweenStrokes: 10
+    });
+
+    writer.loopCharacterAnimation();
+
+  </script>
+
+</html>
